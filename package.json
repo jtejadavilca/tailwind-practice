@@ -1,0 +1,16 @@
+{
+    "name": "tailwindcss-youtube-course",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "tailwindcss": "^3.4.13"
+    }
+}
